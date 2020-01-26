@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+</head>
+<body>
+
+ <div class="tumu"> <!-- Sitenin üst tarafı -->
+
+  <div class="satir"> 
+  	<div class="header">
+  	 <div class="logo">
+  	 	<a href="index.html"><img src="images/adidas_logo.png" alt="adidas logo" width="120" height="80" border="0"></a>
+  	 </div>
+  	   <div class="header-right">
+  	   	<div class="social media">
+  	   		<a href="#"><img src="kullanilan/1451147470_46-facebook.png" width="40" height="40"></a>
+  	   		<a href="#"><img src="kullanilan/1451147516_43-twitter.png" width="40" height="40"></a>
+  	   		<a href="#"><img src="kullanilan/1451147524_78-instagram.png" width="40" height="40"></a>
+  	   		<a href="#"><img src="kullanilan/1451147537_58-youtube.png" width="40" height="40"></a>
+  	   	</div>
+        <div class="uyeGiris">
+  	   	<ul>
+				<li><a href="">Üye Giris</a></li>
+				<li><a href="">Üye Ol</a></li>
+			</ul>
+		</div>  
+
+       </div>  <!--header- right bitiş--> 
+       <div class="temizle"></div>
+    </div> <!-- header bitiş-->
+    </div>  <!-- Sitenin üst tarafı bitiş -->
+
+    <div class="hakkimizdaResim"><img src="images/hResim.png"></div>
+
+<div class="Acordion">
+      <ul>
+        <li>
+          <a href="javascript:void(0)">Hakkımızda</a>
+          <div class="AcordionText">
+            Türk Silahlı Kuvvetleri'nin haberleşme ihtiyaçlarının milli imkanlarla karşılanması için 1975 yılında kurulan ASELSAN; Türk Silahlı Kuvvetlerini Güçlendirme Vakfı'na (TSKGV) bağlı bir anonim şirkettir.
+          </div>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Vizyon</a>
+          <div class="AcordionText">
+            Kuruluşundaki milli amacın gereklerini yerine getirerek; küresel pazarda paydaşları için yarattığı değerler ile sürdürülebilir büyümesini koruyan, rekabet gücü ile tercih edilen, güven duyulan, çevreye ve insana duyarlı bir teknoloji firması olmak.
+          </div>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Misyon</a>
+          <div class="AcordionText">
+            Elektronik teknolojileri ve sistem entegrasyonu alanında; Türk Silahlı Kuvvetleri başta olmak üzere, yurt içi ve dışındaki müşterilerine katma değeri yüksek, yenilikçi ve güvenilir ürün ve çözümler sunmak.
+          </div>
+        </li>
+        <li>
+          <a href="javascript:void(0)">İletişim</a>
+          <div class="AcordionText">
+            Adres : Turgut Özal Bulvarı Rumi Sokak Ticimax Plaza No:31 Ataşehir - İstanbul  /  Çağrı Merkezi : 0850 811 08 20  /  E-Mail : info@ticimax.com
+
+
+          </div>
+        </li>                       
+      </ul>
+    </div>
+
+<script>
+  $(document).ready(function () {
+$('.Acordion>ul>li>a').click(function(event) {
+if ($(this).closest('li').hasClass('active')) {
+   $(this).closest('li').removeClass('active');
+}else{
+  $('.Acordion>ul>li').removeClass('active');
+$(this).closest('li').addClass('active');
+}
+});
+
+});
+</script>
+
+    <div class="satir">
+    	<div class="footerGenel">
+        <div class="footerContainer">
+          <div class="dortluBlok"><h5>ALIŞVERİŞ BİLGİLERİ</h5>
+            <ul>
+              <li><a href="#">Siparişlerim</a></li>
+              <li><a href="#">Beğendiklerim</a></li>
+              <li><a href="#">Hesabım</a></li>
+            </ul>
+          </div>
+          <div class="dortluBlok"><h5>MÜŞTERİ HİZMETLERİ</h5>
+            <ul>
+             <li><a href="#">Canlı Destek</a></li>
+             <li><a href="#">Yardım</a></li>  
+             <li><a href="#">SSS</a></li>
+            </ul>
+          </div>
+          <div class="dortluBlok"><h5>KURUMSAL</h5>
+            <ul>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Bilgilerim</a></li>
+            </ul>
+          </div>
+          <div class="dortluBlok"><h5>E-BÜLTEN</h5>
+
+          </div>
+        </div>
+ 	  	</div>
+
+      <div class="footerBanka">
+        <div class="footerContainer">
+          <div class="bankaSol"><img src="images/banka.png"></div>
+          <div class="bankaSag">  <p>TÜM HAKLARI SAKLIDIR!!!</p></div>
+ 	    </div>
+ 
+
+ </div> <!-- tümü divinin kapanışı -->
+
+</body>
+</html>

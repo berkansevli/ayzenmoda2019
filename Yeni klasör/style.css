@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+*{font-family: 'Open Sans', sans-serif;}
+
+body{
+
+	margin:0px;
+	padding:0px;
+	font-family:"Palotino Linotype", "Book Antiqua", Palotino, serif;
+    background-color: #f4f2fe; 
+}
+.tumu{
+	width:960px;
+	margin:auto;
+}
+.header{
+	border-bottom: solid 1px #000000;
+	padding: 15px;
+}
+.logo{
+	width: 120px;
+	height: 80px;
+	float: left;
+}
+.temizle{
+	clear: both;
+}
+.header-right{
+	float: right;
+}
+.uyeGiris{
+	position:absolute;
+	margin-top: 60px;
+	transition: all 0.9s ease;
+}
+.uyeGiris ul{
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+}
+.uyeGiris ul li{
+	float:left;
+	list-style:none;
+}
+.uyeGiris ul li a{
+	display:block;
+	padding:0 10px;
+	text-decoration:none;
+	color:#000;
+	text-transform:uppercase;
+	line-height:45px;
+}
+
+.social{
+float: right;
+height: 40px;
+margin-top: 10px;
+}
+.content{
+	margin-top: 30px;
+}
+.menu{
+	width:230px;
+	float: left;
+	background-color: #121315;
+	height: 350px;
+	margin-right: 30px;
+}
+.menu ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.menu ul li a{
+	color:#FFF;
+	text-decoration:none;
+	padding: 10px 25px 15px;
+	font-size: 14px;
+	display: block;
+	border-bottom: solid 1px #FFFFFF;
+	background-image: url(images/menuOk.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.slider{
+	width: 700px;
+	height: 350px;
+	float: right;
+	background-color: #F00;
+}
+
+
+}
+.bolum{
+	height: auto;
+}
+.b_bosluk{
+	margin-top: 30px;
+}
+
+.container{
+	width: 100%;
+	max-width: 960px;
+}
+
+.banner3lu{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+.banner3lu .col3{
+	float: left;
+
+	padding: 0 15px;
+	overflow: hidden;
+}
+.banner3lu .col2m img{
+	max-width: 100%;
+	transition: all 0.5 ease;
+}
+.banner3lurow {
+	margin: 0 -15px;
+}
+.banner3lu .col2Alt{
+	margin-top: 30px;
+}
+
+
+.footerGenel{
+	float: left;
+	width: 100%;
+	background: #121315;
+	margin-top: 30px;
+}
+.footerContainer{
+	width: 100%;
+	max-width: 960px !important;
+	clear: both;
+	margin: 0 auto;
+
+}
+
+.dortluBlok{
+	float: left;
+	width: 25%;
+	margin: 45 0px;
+}
+.dortluBlok ul{
+	display: block;
+	list-style-type: none;
+}
+.dortluBlok h5{
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	margin-left: 38px;
+	display: block;
+}
+.dortluBlok ul li{
+	margin-bottom: 10px;
+	color: #FFF;
+
+}
+
+.dortluBlok ul li a{
+	display: inline-block;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: none;
+	background-color:transparent; 
+}
+.dortluBlok ul li a:hover {
+	text-decoration: underline;
+}
+.footerBanka{
+	float: left;
+	width: 100%;
+	background: #121315;
+	border-top: 1px solid #FFF;
+	padding: 5px 0; 
+}
+.bankaSol{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.bankaSag{
+	float: right;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 23px;
+	margin-right: 15px;
+}
+
+.Acordion ul{
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+	float:left;
+	width:100%;
+}
+.Acordion ul li{
+	float:left;
+	list-style:none;
+	width:100%;
+}
+.Acordion ul li a{
+	display:block;
+	padding:0 10px;
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:45px;
+	height:45px;
+	background:#000;
+}
+.Acordion ul li .AcordionText{
+	float:left;
+	width:100%;
+	height:0px;
+	transition: all 0.4s ease;
+	overflow:hidden;
+}
+.Acordion ul li.active .AcordionText{
+	transition: all 0.4s ease;
+	height:50px;
+}
+.hakkimizdaResim{
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+/*
+
+.footer{
+	margin-top: 30px;
+	height: 70px;
+	line-height: 70px;
+	margin-bottom: 10px;
+}
+
+*/
+
+@media(max-width: 960px){
+.bannerblok{
+	width: 33.3%
+}
+}
+@media (max-width: 768px) {
+	.tumu{
+		width: 100%
+	}
+	.slider{
+		float: none;
+		width: 100%;
+		height: auto;
+		margin-top: 30px;
+		display: block;
+	}
+	.slider img{
+		width: 100%;
+		display: block;
+	}
+	.logo{
+b float: none;
+    position: static;
+    display: block;
+    border: none;
+    width: auto;
+    padding: 0;
+    background: transparent;
+    margin: 0
+	}
+.menu{
+	float: none;
+	width: 100%;
+	height: auto;
+}
+.sutun{
+	margin:auto;
+    float: none;
+    margin-bottom: 30px;
+}
+
+.footer{
+	padding-left: 30px;
+}
+
+.menu span {
+	border-bottom: solid 2px #fff;
+	float: right;
+	clear: both;
+	margin: 5 0 5px;
+	width: 50px;
+}
+.menu ul{
+	display: none;
+	position: relative;
+	z-index: 1000px;
+	clear: both;
+}
+.menu:hover > ul{
+	display: block;
+}
+
+@media (max-width: 480px){
+.tumu{
+		width: 100%
+	}
+}
+
+
